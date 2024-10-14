@@ -277,7 +277,6 @@ main {
 }
 
 .sidebar, .sidebar-2 {
-    background-color: burlywood;
     width: 160px;
     height: 938px;
     margin: 30px 0 0 30px;
@@ -287,7 +286,6 @@ main {
 }
 
 .sidebar-2 {
-    background-color: goldenrod;
     width: 196px;
     margin: 30px 0 0 20px;
 }
@@ -298,13 +296,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .video, .video img {
     width: 160px;
     height: 90px;
-    border: 1px solid black;
 }
 
 .video-2 a {
