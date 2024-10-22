@@ -33,4 +33,4 @@ O projeto foi desenvolvido como parte do módulo **Trabalhando com CSS** do curs
 
 ## Prótotipo
 
-<img src="assets/images/Captura da Web_18-10-2024_222521_127.0.0.1.jpeg" alt="Prótotipo do projeto" height="530px">
+<img src="assets/images/Captura da Web_18-10-2024_222521_127.0.0.1.jpeg" alt="Prótotipo do projeto">
