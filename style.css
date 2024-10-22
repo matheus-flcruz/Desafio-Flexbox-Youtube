@@ -3,81 +3,90 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    width: 1440px;
-    height: 1024px;
+    width: 99vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 
 .menu {
-    height: 56px;
+    height: 3.5rem;
+    min-width: 725px;
     display: flex;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem;
 }
 
 #left {
-    width: 146px;
-    height: 24px;
-    padding: 0 24px 0 24px;
+    width: 9.125rem;
+    height: 1.5rem;
+    margin-left: -15px;
     display: flex;
     justify-content: space-between;
 }
 
 #menu-hamburger {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 #logo {
-    width: 90px;
-    height: 20px;
+    width: 5.625rem;
+    height: 1.25rem;
+}
+
+.pointer {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 #center {
     width: 404px;
-    height: 40px;
+    height: 2.5rem;
     display: flex;
 }
 
 form {
     display: flex;
     align-items: center;
+    height: 2.5rem;
   }
   
   input {
-    width: 348px;
-    height: 40px;
+    width: 21.75rem;
+    height: 2.5rem;
+    padding-left: 0.9375rem;
     border: 1px solid #CCCCCC;
     flex-grow: 1;
   }
-
-  input::placeholder {
-    padding-left: 15px;
-  }
   
-  button {
-    width: 57px;
-    height: 42px;
+  #lupa-button {
+    width: 3.56rem;
+    height: 2.625rem;
     border: 1px solid #CCCCCC;
     cursor: pointer;
     background-color: transparent;
   }
 
 #lupa {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 #right {
-    width: 130px;
-    height: 34px;
+    width: 8.125rem;
+    height: 2.125rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 25px 0 0;
 }
 
 .icon-right {
@@ -86,59 +95,62 @@ form {
 }
 
 #photo {
-    width: 34px;
-    height: 34px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 
 main {
     display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: auto;
 }
 
 .watching-video {
-    width: 952px;
-    height: 815px;
-    margin: 30px 0 0 75px;
+    width: 59.5rem;
+    height: 50.94rem;
+    margin: 1.875rem 1.5%;
 }
 
 .titulo-video {
-    width: 871px;
-    height: 23px;
-    margin: 15px 0 15px 0;
+    width: 54.44rem;
+    height: 1.4375rem;
+    margin: 0.9375rem 0;
 }
 
 .titulo-video h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    line-height: 23.44px;
+    line-height: 1.46rem;
     color: #000;
 }
 
 .video-actions {
-    width: 902px;
-    height: 42px;
+    width: 56.375rem;
+    height: 2.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .channel-infos {
-    width: 160px;
-    height: 42px;
+    width: 10rem;
+    height: 2.625rem;
     display: flex;
 }
 
 .channel-infos img {
-    width: 42px;
-    height: 42px;
+    width: 2.625rem;
+    height: 2.625rem;
     border-radius: 50%;
 }
 
 .channel-infos span {
-    width: 106px;
-    height: 32px;
-    margin: 5px;
+    width: 10rem;
+    height: 2rem;
+    margin: 0.3125rem;
 }
 
 .channel-infos span a {
@@ -148,183 +160,183 @@ main {
 
 .channel-infos span a h3 {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 16.41px;
+    font-size: 1rem;
+    line-height: 1.025625rem;
     flex-flow: row nowrap;
 }
 
 .channel-infos span p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
 }
 
 .subscribe-button {
     background-color: #CC0000;
-    width: 159px;
-    height: 40px;
-    border-radius: 5px;
+    width: 9.9375rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
     border: transparent;
     color: #FFF;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
     justify-content: center;
 }
 
 .like {
-    width: 68px;
-    height: 24px;
+    width: 4.25rem;
+    height: 1.5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 16.41px;
+    line-height: 1.025625rem;
     align-items: center;
 }
 
 .like button {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: transparent;
 }
 
 .like button img {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .deslike {
-    width: 100px;
-    height: 24px;
+    width: 6.25rem;
+    height: 1.5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 16.41px;
+    line-height: 1.025625rem;
     align-items: center;
 }
 
 .deslike button {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: transparent;
 }
 
 .share {
-    width: 115px;
-    height: 24px;
+    width: 7.1875rem;
+    height: 1.5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 16.41px;
+    line-height: 1.025625rem;
     align-items: center;
 }
 
 .share button {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: transparent;
 }
 
 .download {
-    width: 95px;
-    height: 24px;
+    width: 5.9375rem;
+    height: 1.5rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 16.41px;
+    line-height: 1.025625rem;
     align-items: center;
 }
 
 .download button {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: transparent;
 }
 
 .vizualicacoes {
     background-color: #CC0000;
-    width: 391px;
-    height: 16px;
+    width: 24.4375rem;
+    height: 1rem;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 16.41;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
     color: #000;
 }
 
 .descricao {
-    width: 510px;
-    height: 130px;
-    margin-top: 15px;
+    width: 31.875rem;
+    height: 8.125rem;
+    margin-top: 0.9375rem;
 }
 
 .descricao-text {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
     color: #515151;
 }
 
 .links {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
     color: #515151;
     text-decoration: none;
 }
 
 .sidebar, .sidebar-2 {
-    width: 160px;
-    height: 938px;
-    margin: 30px 0 0 30px;
+    width: 10rem;
+    height: 58.4375rem;
+    margin: 1.875rem 1%;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
 }
 
 .sidebar-2 {
-    width: 196px;
-    margin: 30px 0 0 20px;
+    width: 12.25rem;
+    margin: 1.875rem 0 0 1.25rem;
 }
 
 .video-2 {
-    width: 196px;
-    height: 89px;
+    width: 12.25rem;
+    height: 5.5625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .video, .video img {
-    width: 160px;
-    height: 90px;
+    width: 10rem;
+    height: 5.625rem;
 }
 
 .video-2 a {
-    height: 32px;
+    height: 2rem;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
     color: #000;
     text-decoration: none;
 }
 
 .canal {
-    height: 14px;
+    height: 0.875rem;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14.06px;
+    font-size: 0.75rem;
+    line-height: 1.025625rem;
     color: #515151;
-    margin-bottom: -12px;
+    margin-bottom: -0.75rem;
 }
 
 .visualizacoes-lancamento {
-    height: 28px;
+    height: 1.75rem;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14.06px;
+    font-size: 0.75rem;
+    line-height: 1.025625rem;
     color: #515151;
 }

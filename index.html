@@ -10,34 +10,34 @@
 <body>
     <header class="menu">
         <nav id="left">
-            <div>
+            <button class="pointer">
                     <img id="hamburger-menu" src="assets/images/menu.svg" alt="imagem de menu hamburger de navegação">
-            </div>
-            <div>
+            </button>
+            <button class="pointer">
                 <img id="logo" src="assets/images/youtube 1.svg" alt="logo do youtube">
-            </div>
+            </button>
         </nav>
         <nav id="center">
             <form action="#" method="get">
                 <input type="text" name="search" placeholder="Pesquisar">
-                <button type="submit"><img id="lupa" src="assets/images/lupa.svg" alt=""></button>
+                <button type="submit" id="lupa-button"><img id="lupa" src="assets/images/lupa.svg" alt=""></button>
             </form>
         </nav>
         <nav id="right">
-            <div class="icon-right">
-                <img src="assets/images/video.svg" alt="">
+            <div class="icon-right pointer">
+                <img src="assets/images/video.svg" alt="ícone do local de criação de video">
             </div>
-            <div class="icon-right">
-                <img src="assets/images/bell.svg" alt="">
+            <div class="icon-right pointer">
+                <img src="assets/images/bell.svg" alt="ícone das notificações">
             </div>
-            <div><img id="photo" src="assets/images/foto.jpg" alt=""></div>
+            <div><img id="photo" src="assets/images/foto.jpg" alt="foto do perfil do usuário logado" class="pointer"></div>
         </nav>
     </header>
     <main>
         <div class="watching-video">
             <iframe width="952" height="537" src="https://www.youtube.com/embed/0BGAbKtUPmk?si=Ygw2ajo1GFcE-L7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="titulo-video">
-                <h1>Linkin Park - Session (Ariva Remix)</h1>
+                <h1 class="pointer">Linkin Park - Session (Ariva Remix)</h1>
             </div>
             <div class="video-actions">
                 <div class="channel-infos">
@@ -47,22 +47,22 @@
                         <p>152 inscritos</p>
                     </span>
                 </div>
-                <button class="subscribe-button">INSCREVA-SE</button>
+                <button class="subscribe-button pointer">INSCREVA-SE</button>
                 <div class="like">
-                    <button><img src="assets/images/like.svg" alt="botão de like"></button>
-                    <p>1,4 mil</p>
+                    <button class="pointer"><img src="assets/images/like.svg" alt="botão de like"></button>
+                    <p class="pointer">1,4 mil</p>
                 </div>
                 <div class="deslike">
-                    <button><img src="assets/images/deslike.svg" alt="botão de like"></button>
-                    <p>Não gostei</p>
+                    <button class="pointer"><img src="assets/images/deslike.svg" alt="botão de like"></button>
+                    <p class="pointer">Não gostei</p>
                 </div>
                 <div class="share">
-                    <button><img src="assets/images/compartilhar.svg" alt="botão para compartilhar"></button>
-                    <p>Compartilhar</p>
+                    <button class="pointer"><img src="assets/images/compartilhar.svg" alt="botão para compartilhar"></button>
+                    <p class="pointer">Compartilhar</p>
                 </div>
                 <div class="download">
-                    <button><img src="assets/images/download.svg" alt="botão para fazer download"></button>
-                    <p>Download</p>
+                    <button class="pointer"><img src="assets/images/download.svg" alt="botão para fazer download"></button>
+                    <p class="pointer">Download</p>
                 </div>
             </div>
             <p class="visualizacoes">
@@ -77,39 +77,30 @@
             </div>
         </div>
         <section class="sidebar">
-            <div class="video"><img src="assets/images/duality.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/duality.png" alt="capa do video Slipknot - Duality (Rock in Rio 2011) HD">
             </div>
-            <div class="video"><img src="assets/images/session.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/session.png" alt="capa do video Session - Linkin Park (Meteora)">
             </div>
-            <div class="video"><img src="assets/images/Slipknot RiR 2011.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/Slipknot RiR 2011.png" alt="capa do video Slipknot - Rock in Rio 2011 HD (Full Concert)">
             </div>
-            <div class="video"><img src="assets/images/lp detroit.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/lp detroit.png" alt="capa do video Linkin Park - Live Detroit, Michigan us">
             </div>
-            <div class="video"><img src="assets/images/bring me to life.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/bring me to life.png" alt="capa do video Evanescence - Bring Me To Life (Official HD Music Video)">
             </div>
-            <div class="video"><img src="assets/images/aerials.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/aerials.png" alt="capa do video System Of A Down - Aerials (Official HD Video)">
             </div>
-            <div class="video"><img src="assets/images/st.anger.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/st.anger.png" alt="capa do video Metallica - St. Anger (Official Music Video)">
             </div>
-            <div class="video"><img src="assets/images/heavy is te crowd.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/heavy is te crowd.png" alt="capa do video Heavy Is The Crown ft. Linkin Park (videoclipe oficial)">
             </div>
-            <div class="video"><img src="assets/images/hendrix.png" alt="">
-                <div class="video-infos"></div>
+            <div class="video pointer"><img src="assets/images/hendrix.png" alt="capa do video The Jimi Hendrix Experience - Voodoo Child (Slight Return)">
             </div>
         </section>
 
         <section class="sidebar-2">
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=_YCry3sBZw4">Slipknot - Duality (Rock in Rio 2011) HD</a>
-                <p class="canal">MarvHLP</p>
+                <p class="canal pointer">MarvHLP</p>
                 <div class="visualizacoes-lancamento">
                     <p>2.1 mi de visualizações</p>
                     <p>há 11 anos</p>
@@ -117,7 +108,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=J1KqQYsUYIk">Session - Linkin Park (Meteora)</a>
-                <p class="canal">Linkin Park</p>
+                <p class="canal pointer">Linkin Park</p>
                 <div class="visualizacoes-lancamento">
                     <p>6,4 mi de visualizações</p>
                     <p>há 9 anos</p>
@@ -125,7 +116,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=w_CkCW7CBjo">Slipknot - Rock in Rio 2011 HD (Full Concert)</a>
-                <p class="canal">Slipknot Nu Metal</p>
+                <p class="canal pointer">Slipknot Nu Metal</p>
                 <div class="visualizacoes-lancamento">
                     <p>1,4 mi de visualizações</p>
                     <p>há 4 anos</p>
@@ -133,7 +124,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=KylNc3vxky0&t=79s">Linkin Park - Live Detroit, Michigan us (MTV Japan $2...</a>
-                <p class="canal">[[☆Easier To Run☆]]</p>
+                <p class="canal pointer">[[☆Easier To Run☆]]</p>
                 <div class="visualizacoes-lancamento">
                     <p>7,4 mil de visualizações</p>
                     <p>há 2 anos</p>
@@ -141,7 +132,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=3YxaaGgTQYM">Evanescence - Bring Me To Life (Official HD Music Video)</a>
-                <p class="canal">Evanescence</p>
+                <p class="canal pointer">Evanescence</p>
                 <div class="visualizacoes-lancamento">
                     <p>1,4 bi de visualizações</p>
                     <p>há 14 anos</p>
@@ -149,7 +140,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=L-iepu3EtyE">System Of A Down - Aerials (Official HD Video)</a>
-                <p class="canal">System O A Down</p>
+                <p class="canal pointer">System O A Down</p>
                 <div class="visualizacoes-lancamento">
                     <p>475 mi de visualizações</p>
                     <p>há 15 anos</p>
@@ -157,7 +148,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=6ajl1ABdD8A">Metallica - St. Anger (Official Music Video)</a>
-                <p class="canal">Warner Records Vault</p>
+                <p class="canal pointer">Warner Records Vault</p>
                 <div class="visualizacoes-lancamento">
                     <p>38 mi de visualizações</p>
                     <p>há 14 anos</p>
@@ -165,7 +156,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=5FrhtahQiRc">Heavy Is The Crown ft. Linkin Park (videoclipe oficial) | Te...</a>
-                <p class="canal">League of Legends</p>
+                <p class="canal pointer">League of Legends</p>
                 <div class="visualizacoes-lancamento">
                     <p>53 mi de visualizações</p>
                     <p>há 2 semanas</p>
@@ -173,7 +164,7 @@
             </div>
             <div class="video-2">
                 <a href="https://www.youtube.com/watch?v=qFfnlYbFEiE">The Jimi Hendrix Experience - Voodoo Child (Slight Return)...</a>
-                <p class="canal">Jimi Hendrix</p>
+                <p class="canal pointer">Jimi Hendrix</p>
                 <div class="visualizacoes-lancamento">
                     <p>50 mi de visualizações</p>
                     <p>há 4 anos</p>
